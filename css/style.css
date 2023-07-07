@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap");
 .header {
   width: 100%;
   height: 109px;
@@ -274,6 +275,108 @@
   letter-spacing: 0px;
   text-align: left;
   color: #FFFFFF;
+}
+
+.howWorks {
+  max-width: 1440px;
+  width: 100%;
+  height: 836px;
+  background: #000;
+  overflow: hidden;
+  z-index: 1;
+}
+.howWorks .box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.howWorks .box .howWorks__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: none;
+  z-index: 3;
+}
+.howWorks .box .howWorks__title1 {
+  position: absolute;
+  top: 146px;
+  left: -274px;
+  font-family: Outfit;
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 136px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #2FDBBC;
+  z-index: 2;
+  width: 1034px;
+  height: 136px;
+}
+.howWorks .box .howWorks__title2 {
+  position: absolute;
+  top: 146px;
+  right: -466px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 121px;
+  font-weight: 700;
+  line-height: 136px;
+  text-align: left;
+  -webkit-text-stroke-color: #444444;
+  -webkit-text-stroke-width: 1px;
+  width: 1120px;
+  height: 136px;
+}
+.howWorks .box .howWorks__title3 {
+  position: absolute;
+  top: 350px;
+  left: -90px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 121px;
+  font-weight: 700;
+  line-height: 136px;
+  text-align: left;
+  -webkit-text-stroke-color: #444444;
+  -webkit-text-stroke-width: 1px;
+}
+.howWorks .box .howWorks__title4 {
+  position: absolute;
+  top: 357px;
+  color: #A64CED;
+  right: -545px;
+  font-family: Outfit;
+  font-size: 122px;
+  font-weight: 700;
+  line-height: 136px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.howWorks .box .howWorks__title5 {
+  position: absolute;
+  top: 554px;
+  left: -528px;
+  font-family: Outfit;
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 136px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFAA4C;
+  width: 1034px;
+  height: 136px;
+}
+.howWorks .box .howWorks__title6 {
+  position: absolute;
+  top: 554px;
+  right: -140px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 121px;
+  font-weight: 700;
+  line-height: 136px;
+  text-align: left;
+  -webkit-text-stroke-color: #444444;
+  -webkit-text-stroke-width: 1px;
 }
 
 * {

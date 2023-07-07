@@ -1,0 +1,165 @@
+.footer {
+	width: 100%;
+	height: 188px;
+
+	overflow: hidden;
+
+	.box {
+		margin: 0 auto;
+		max-width: 1440px;
+		background-color: #181818;
+		height: 100%;
+
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		align-items: center;
+
+		.footer__top {
+			width: 1320px;
+			height: 127px;
+
+
+			.wrap {
+				height: 57px;
+
+				margin-top: 40px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				.footer__top-left {
+					max-width: 688px;
+					height: 100%;
+					width: 100%;
+
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+
+					.footer__logo {
+						background-size: contain;
+						background-repeat: no-repeat;
+						background-image: url('../img/logo.png');
+						width: 155px;
+						height: 49px;
+
+					}
+
+					.fotter_wrapper-links {
+						width: 291px;
+						height: 25px;
+
+						margin-right: 126px;
+
+
+						.footer__link-top {
+							color: #FFFF;
+							font-family: Outfit;
+							font-size: 20px;
+							font-weight: 500;
+							line-height: 25px;
+							letter-spacing: 0px;
+							text-align: center;
+							text-decoration: none;
+							cursor: pointer;
+
+						}
+
+						.footer__link-top2 {
+							color: #FFFF;
+							font-family: Outfit;
+							font-size: 20px;
+							font-weight: 500;
+							line-height: 25px;
+							letter-spacing: 0px;
+							text-align: center;
+							text-decoration: none;
+							margin-left: 40px;
+						}
+					}
+				}
+
+				.footer__top-right {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					width: 100%;
+
+					.fotter__btn-app {
+						cursor: pointer;
+
+					}
+
+					.fotter__btn-google {
+						cursor: pointer;
+					}
+				}
+			}
+
+		}
+
+		.footer__down {
+			width: 1320px;
+			height: 61px;
+			border-top: 1px solid #444444;
+
+			.container {
+				margin-top: 20px;
+				width: 100%;
+				height: 20px;
+
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				.footer__Copyright {
+					color: #B9B9B9;
+					font-family: Outfit;
+					font-size: 14px;
+					font-weight: 300;
+					line-height: 20px;
+					letter-spacing: 0px;
+					text-align: left;
+
+				}
+
+				.footer-nav {
+
+					width: 471px;
+					height: 20px;
+
+
+					.footer-nav__list {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						width: 100%;
+						height: 100%;
+
+						.footer-nav__links {
+							list-style-type: none;
+
+							.footer-nav__link {
+								font-family: Outfit;
+								font-size: 14px;
+								font-weight: 300;
+								line-height: 20px;
+								letter-spacing: 0px;
+								text-align: right;
+								color: #B9B9B9;
+								text-decoration: none;
+							}
+						}
+					}
+
+
+
+
+				}
+			}
+
+		}
+	}
+
+}

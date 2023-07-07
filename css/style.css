@@ -900,6 +900,172 @@
   margin-right: 51px;
 }
 
+.footer {
+  width: 100%;
+  height: 188px;
+  overflow: hidden;
+}
+.footer .box {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: #181818;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .box .footer__top {
+  width: 1320px;
+  height: 127px;
+}
+.footer .box .footer__top .wrap {
+  height: 57px;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .box .footer__top .wrap .footer__top-left {
+  max-width: 688px;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .box .footer__top .wrap .footer__top-left .footer__logo {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/logo.png");
+  width: 155px;
+  height: 49px;
+}
+.footer .box .footer__top .wrap .footer__top-left .fotter_wrapper-links {
+  width: 291px;
+  height: 25px;
+  margin-right: 126px;
+}
+.footer .box .footer__top .wrap .footer__top-left .fotter_wrapper-links .footer__link-top {
+  color: white;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer .box .footer__top .wrap .footer__top-left .fotter_wrapper-links .footer__link-top2 {
+  color: white;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.footer .box .footer__top .wrap .footer__top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.footer .box .footer__top .wrap .footer__top-right .fotter__btn-app {
+  cursor: pointer;
+}
+.footer .box .footer__top .wrap .footer__top-right .fotter__btn-google {
+  cursor: pointer;
+}
+.footer .box .footer__down {
+  width: 1320px;
+  height: 61px;
+  border-top: 1px solid #444444;
+}
+.footer .box .footer__down .container {
+  margin-top: 20px;
+  width: 100%;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .box .footer__down .container .footer__Copyright {
+  color: #B9B9B9;
+  font-family: Outfit;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.footer .box .footer__down .container .footer-nav {
+  width: 471px;
+  height: 20px;
+}
+.footer .box .footer__down .container .footer-nav .footer-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.footer .box .footer__down .container .footer-nav .footer-nav__list .footer-nav__links {
+  list-style-type: none;
+}
+.footer .box .footer__down .container .footer-nav .footer-nav__list .footer-nav__links .footer-nav__link {
+  font-family: Outfit;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #B9B9B9;
+  text-decoration: none;
+}
+
 * {
   margin: 0px;
   padding: 0px;

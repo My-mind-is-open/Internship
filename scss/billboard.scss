@@ -1,0 +1,100 @@
+.billboard {
+	max-width: 1440px;
+	width: 100%;
+	height: 222px;
+	background-color: #954CED;
+
+	.box {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.billboard__card {
+			margin-left: 350.5px;
+
+			.billboard__title {
+				color: #FFFFFF;
+				font-family: Outfit;
+				font-size: 64px;
+				font-weight: 700;
+				line-height: 68px;
+				letter-spacing: 0px;
+				text-align: left;
+
+
+			}
+
+			.billboard__lead {
+				color: #FFFFFF;
+				font-family: Outfit;
+				font-size: 24px;
+				font-weight: 600;
+				line-height: 29px;
+				letter-spacing: 0px;
+				text-align: left;
+				width: 217px;
+				margin-top: 16px;
+			}
+		}
+
+		.billboard__card2 {
+			width: 182px;
+
+
+			.billboard__title {
+				color: #FFFFFF;
+				font-family: Outfit;
+				font-size: 64px;
+				font-weight: 700;
+				line-height: 68px;
+				letter-spacing: 0px;
+				text-align: left;
+
+
+			}
+
+			.billboard__lead {
+				color: #FFFFFF;
+				font-family: Outfit;
+				font-size: 24px;
+				font-weight: 600;
+				line-height: 29px;
+				letter-spacing: 0px;
+				text-align: left;
+				width: 217px;
+				margin-top: 16px;
+			}
+		}
+
+		.billboard__card3 {
+			margin-right: 270px;
+
+			.billboard__title {
+				color: #FFFFFF;
+				font-family: Outfit;
+				font-size: 64px;
+				font-weight: 700;
+				line-height: 68px;
+				letter-spacing: 0px;
+				text-align: left;
+
+
+			}
+
+			.billboard__lead {
+				color: #FFFFFF;
+				font-family: Outfit;
+				font-size: 24px;
+				font-weight: 600;
+				line-height: 29px;
+				letter-spacing: 0px;
+				text-align: left;
+				width: 217px;
+				margin-top: 16px;
+			}
+		}
+
+	}
+}

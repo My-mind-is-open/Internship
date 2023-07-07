@@ -379,6 +379,95 @@
   -webkit-text-stroke-width: 1px;
 }
 
+.billboard {
+  max-width: 1440px;
+  width: 100%;
+  height: 222px;
+  background-color: #954CED;
+}
+.billboard .box {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.billboard .box .billboard__card {
+  margin-left: 350.5px;
+}
+.billboard .box .billboard__card .billboard__title {
+  color: #FFFFFF;
+  font-family: Outfit;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.billboard .box .billboard__card .billboard__lead {
+  color: #FFFFFF;
+  font-family: Outfit;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 217px;
+  margin-top: 16px;
+}
+.billboard .box .billboard__card2 {
+  width: 182px;
+}
+.billboard .box .billboard__card2 .billboard__title {
+  color: #FFFFFF;
+  font-family: Outfit;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.billboard .box .billboard__card2 .billboard__lead {
+  color: #FFFFFF;
+  font-family: Outfit;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 217px;
+  margin-top: 16px;
+}
+.billboard .box .billboard__card3 {
+  margin-right: 270px;
+}
+.billboard .box .billboard__card3 .billboard__title {
+  color: #FFFFFF;
+  font-family: Outfit;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.billboard .box .billboard__card3 .billboard__lead {
+  color: #FFFFFF;
+  font-family: Outfit;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 217px;
+  margin-top: 16px;
+}
+
 * {
   margin: 0px;
   padding: 0px;

@@ -1,0 +1,297 @@
+.whyBudss {
+	max-width: 1440px;
+	width: 100%;
+	height: 1192px;
+	background: black;
+
+	.box {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+
+		.whyBuds__top {
+			width: 100%;
+			height: 348px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			.box {
+				width: 664px;
+				height: 348px;
+
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.whyBuds__title {
+
+					font-family: Outfit;
+					font-size: 64px;
+					font-weight: 700;
+					line-height: 68px;
+					letter-spacing: 0px;
+					text-align: left;
+					color: #fff;
+
+				}
+
+				.whyBuds__subtitle {
+					margin-top: 20px;
+					height: 90px;
+					color: #fff;
+					font-family: Outfit;
+					font-size: 32px;
+					font-weight: 600;
+					line-height: 45px;
+					letter-spacing: 0px;
+					text-align: center;
+					width: 100%;
+
+					.whyBuds__img-vector {
+						background-image: url('../img/vector.png');
+						width: 100%;
+						background-size: cover;
+						background-repeat: no-repeat;
+					}
+				}
+			}
+		}
+
+		.whyBuds__down {
+			max-width: 1300px;
+			width: 100%;
+			height: 744px;
+
+			display: flex;
+			flex-wrap: wrap;
+
+
+			.card {
+				max-width: 733px;
+				width: 100%;
+				height: 362px;
+				background: #F5F5F5;
+				border-radius: 30px;
+				position: relative;
+				overflow: hidden;
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+
+
+				.card__img {
+					top: 0;
+					left: 0;
+					position: absolute;
+				}
+
+				.card-text {
+					display: flex;
+					justify-content: space-between;
+					flex-direction: column;
+					align-items: center;
+
+					width: 364px;
+					height: 180px;
+					margin-bottom: 100px;
+					margin-right: 40px;
+
+					.card__title {
+						//styleName: Title/T5_SemiBold_48;
+						font-family: Outfit;
+						font-size: 48px;
+						font-weight: 600;
+						line-height: 60px;
+						letter-spacing: 0px;
+						text-align: left;
+
+					}
+
+					.card__lead {
+						margin-top: 20px;
+						width: 334px;
+						font-family: Outfit;
+						font-size: 20px;
+						font-weight: 400;
+						line-height: 24px;
+						letter-spacing: 0px;
+						text-align: left;
+						margin-right: 30px;
+
+					}
+				}
+			}
+
+			.card2 {
+				max-width: 547px;
+				width: 100%;
+				height: 362px;
+				border-radius: 30px;
+				background: #F5F5F5;
+				margin-left: 18px;
+				position: relative;
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+
+				.card2__img1 {
+					position: absolute;
+					top: 90px;
+					right: 0px
+				}
+
+				.card2__img2 {
+					top: 299px;
+					left: 72px;
+					position: absolute;
+
+				}
+
+				.card2__img3 {
+					top: 277px;
+					left: 394px;
+					position: absolute;
+				}
+
+				.card-text2 {
+					width: 416px;
+					height: 236px;
+
+					margin-left: 40px;
+					margin-bottom: 82px;
+					margin-top: 40px;
+
+					.card__title2 {
+						color: black;
+
+						font-family: Outfit;
+						font-size: 48px;
+						font-weight: 600;
+						line-height: 60px;
+						letter-spacing: 0px;
+						text-align: left;
+
+					}
+
+					.card__lead2 {
+						margin-top: 20px;
+						font-family: Outfit;
+						font-size: 20px;
+						font-weight: 400;
+						line-height: 24px;
+						letter-spacing: 0px;
+						text-align: left;
+
+					}
+				}
+
+			}
+
+			.card3 {
+				max-width: 547px;
+				width: 100%;
+				height: 362px;
+				border-radius: 30px;
+				background: #F5F5F5;
+				position: relative;
+				overflow: hidden;
+
+				.card-text3 {
+					margin-top: 40px;
+					margin-left: 40px;
+
+					.card__title3 {
+						color: black;
+						font-family: Outfit;
+						font-size: 48px;
+						font-weight: 600;
+						line-height: 60px;
+						letter-spacing: 0px;
+						text-align: left;
+						width: 440px;
+						height: 180px;
+
+
+					}
+
+					.card__lead3 {
+						color: black;
+						font-family: Outfit;
+						font-size: 20px;
+						font-weight: 400;
+						line-height: 24px;
+						letter-spacing: 0px;
+						text-align: left;
+						width: 308px;
+						height: 72px;
+						margin-top: 20px;
+
+					}
+				}
+
+				.card3__img {
+					position: absolute;
+					// top: 289px;
+					top: 280px;
+					left: 345px;
+
+
+				}
+			}
+
+			.card4 {
+				max-width: 733px;
+				width: 100%;
+				height: 362px;
+				border-radius: 30px;
+				background: #F5F5F5;
+				margin-left: 18px;
+				position: relative;
+
+				.card-text4 {
+					margin-top: 40px;
+					margin-left: 40px;
+
+					.card__title4 {
+						color: black;
+						font-family: Outfit;
+						font-size: 48px;
+						font-weight: 600;
+						line-height: 60px;
+						letter-spacing: 0px;
+						text-align: left;
+						width: 395px;
+						height: 120px;
+
+
+					}
+
+					.card__lead4 {
+						width: 402px;
+						height: 96px;
+						color: black;
+						font-family: Outfit;
+						font-size: 20px;
+						font-weight: 400;
+						line-height: 24px;
+						letter-spacing: 0px;
+						text-align: left;
+						margin-top: 20px;
+
+					}
+				}
+
+				.card4__img {
+					top: 61px;
+					left: 480px;
+					position: absolute;
+				}
+
+
+			}
+
+		}
+	}
+}

@@ -151,6 +151,131 @@
   margin-top: 62px;
 }
 
+.about {
+  background: #000;
+  height: 1116px;
+}
+.about .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about .about-left {
+  max-width: 528px;
+  width: 100%;
+  height: 873px;
+}
+.about .about-left .box-left {
+  margin-top: 100px;
+}
+.about .about-left .box-left .about__title {
+  width: 559px;
+  height: 102px;
+  margin-left: 60px;
+}
+.about .about-left .box-left .about__subtitle {
+  font-family: Outfit;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: white;
+  width: 397px;
+  height: 135px;
+  margin-top: 80px;
+  margin-left: 60px;
+}
+.about .about-left .box-left .about__subtitle .about__img-vector {
+  background-image: url("../img/vector.png");
+  width: 395px;
+  height: 45px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.about .about-left .box-left .about__img {
+  margin-top: 208px;
+  width: 423px;
+  height: 489px;
+}
+.about .about-right {
+  max-width: 692px;
+  width: 100%;
+  height: 771px;
+  margin-right: 160px;
+}
+.about .about-right .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 215px;
+}
+.about .about-right .box .card2 {
+  width: 301px;
+  height: 340px;
+}
+.about .about-right .box .card3 {
+  width: 306px;
+  height: 349px;
+  margin-top: 92px;
+}
+.about .about-right .box .card4 {
+  width: 336.01px;
+  height: 377px;
+  margin-top: 92px;
+}
+.about .about-right .box .card {
+  width: 321px;
+  height: 298px;
+}
+
+.card-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.card-box .card__title {
+  color: #FFFFFF;
+  font-family: Outfit;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 10px;
+}
+.card-box .card__subtitle {
+  margin-top: 20px;
+  font-family: Outfit;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
 * {
   margin: 0px;
   padding: 0px;

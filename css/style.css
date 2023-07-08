@@ -82,6 +82,64 @@
 }
 .header .box .header_level2 .nav {
   display: none;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  max-width: 375px;
+  height: 846px;
+  background: #000;
+  position: absolute;
+  top: 0px;
+}
+.header .box .header_level2 .nav .nav__btn-close {
+  display: block;
+  background-image: url("../img/close.png");
+  width: 40px;
+  height: 40px;
+  top: 15px;
+  left: 319px;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+.header .box .header_level2 .nav .nav__btn {
+  width: 343px;
+  height: 57px;
+  top: 196px;
+  left: 16px;
+  position: absolute;
+}
+.header .box .header_level2 .nav .nav__list {
+  width: 333px;
+  height: 210px;
+  margin-bottom: 213px;
+}
+.header .box .header_level2 .nav .nav__list .nav__item {
+  list-style-type: none;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.header .box .header_level2 .nav .nav__list .nav__item .nav__link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 131px;
+  height: 25px;
+}
+.header .box .header_level2 .header__btn-phone {
+  display: none;
 }
 .header .box .header_level2 .header__btn {
   margin-right: 60px;
@@ -95,6 +153,42 @@
   margin-left: 60px;
 }
 
+@media (max-width: 376px) {
+  .header {
+    width: 375px;
+    height: 817px;
+  }
+  .header .box .header_level1 {
+    max-width: 375px;
+  }
+  .header .box .header_level1 .header_tab1 {
+    margin-left: 0px;
+  }
+  .header .box .header_level1 .header_tab2 {
+    margin: 0px;
+  }
+  .header .box .header_level2 {
+    max-width: 375px;
+  }
+  .header .box .header_level2 .header__btn {
+    display: none;
+  }
+  .header .box .header_level2 .header__btn-phone {
+    display: block;
+    background-image: url("../img/Burger.png");
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    margin-right: 16px;
+  }
+  .header .box .header_level2 .header__logo {
+    margin-left: 16px;
+  }
+}
 .hero {
   height: 591px;
   width: 100%;

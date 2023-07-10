@@ -82,6 +82,8 @@
 }
 .header .box .header_level2 .nav {
   display: none;
+  position: fixed;
+  z-index: 7;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -92,7 +94,7 @@
   max-width: 375px;
   height: 846px;
   background: #000;
-  position: absolute;
+  overflow-x: hidden;
   top: 0px;
 }
 .header .box .header_level2 .nav .nav__btn-close {
@@ -840,6 +842,128 @@
   margin-top: 16px;
 }
 
+@media (max-width: 376px) {
+  .billboard {
+    width: 375px;
+    height: 286px;
+    overflow-x: hidden;
+    margin-top: 40px;
+  }
+  .billboard .box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: 16px;
+  }
+  .billboard .box .billboard__card {
+    width: 346px;
+    height: 42px;
+    margin: 0px;
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .billboard .box .billboard__card .billboard__title {
+    font-family: Outfit;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .billboard .box .billboard__card .billboard__lead {
+    margin: 0px;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 261px;
+  }
+  .billboard .box .billboard__card2 {
+    margin-top: 40px;
+    width: 316px;
+    height: 42px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .billboard .box .billboard__card2 .billboard__title {
+    font-family: Outfit;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .billboard .box .billboard__card2 .billboard__lead {
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 259px;
+    height: 25px;
+    margin: 0;
+    margin-left: 20px;
+  }
+  .billboard .box .billboard__card3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 329px;
+    height: 42px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .billboard .box .billboard__card3 .billboard__title {
+    font-family: Outfit;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .billboard .box .billboard__card3 .billboard__lead {
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 20px;
+    width: 239px;
+    height: 25px;
+  }
+}
 .whyBudss {
   max-width: 1440px;
   width: 100%;

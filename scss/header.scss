@@ -74,14 +74,15 @@
 
 			.nav {
 				display: none;
-
+				position: fixed;
+				z-index: 7;
 				justify-content: flex-start;
 				align-items: flex-end;
 				width: 100%;
 				max-width: 375px;
 				height: 846px;
 				background: #000;
-				position: absolute;
+				overflow-x: hidden;
 				top: 0px;
 
 				.nav__btn-close {

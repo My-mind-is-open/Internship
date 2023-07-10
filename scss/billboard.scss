@@ -14,6 +14,7 @@
 		.billboard__card {
 			margin-left: 350.5px;
 
+
 			.billboard__title {
 				color: #FFFFFF;
 				font-family: Outfit;
@@ -96,5 +97,124 @@
 			}
 		}
 
+	}
+}
+
+@media(max-width:376px) {
+	.billboard {
+		width: 375px;
+		height: 286px;
+		overflow-x: hidden;
+		margin-top: 40px;
+
+		.box {
+			flex-direction: column;
+			margin: 0px;
+			align-items: flex-start;
+			justify-content: space-around;
+			margin-left: 16px;
+
+
+			.billboard__card {
+				width: 346px;
+				height: 42px;
+				margin: 0px;
+
+				margin-top: 40px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				.billboard__title {
+					font-family: Outfit;
+					font-size: 40px;
+					font-weight: 700;
+					line-height: 42px;
+					letter-spacing: 0px;
+					text-align: left;
+				}
+
+				.billboard__lead {
+					margin: 0px;
+					font-family: Outfit;
+					font-size: 20px;
+					font-weight: 600;
+					line-height: 25px;
+					letter-spacing: 0px;
+					text-align: left;
+					width: 261px;
+
+
+				}
+			}
+
+			.billboard__card2 {
+				margin-top: 40px;
+				width: 316px;
+				height: 42px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+
+				.billboard__title {
+					font-family: Outfit;
+					font-size: 40px;
+					font-weight: 700;
+					line-height: 42px;
+					letter-spacing: 0px;
+					text-align: left;
+
+				}
+
+				.billboard__lead {
+
+					font-family: Outfit;
+					font-size: 20px;
+					font-weight: 600;
+					line-height: 25px;
+					letter-spacing: 0px;
+					text-align: left;
+					width: 259px;
+					height: 25px;
+					margin: 0;
+					margin-left: 20px;
+				}
+			}
+
+			.billboard__card3 {
+				margin-top: 40px;
+				margin-bottom: 40px;
+				width: 329px;
+				height: 42px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+
+				.billboard__title {
+					font-family: Outfit;
+					font-size: 40px;
+					font-weight: 700;
+					line-height: 42px;
+					letter-spacing: 0px;
+					text-align: left;
+				}
+
+				.billboard__lead {
+					font-family: Outfit;
+					font-size: 20px;
+					font-weight: 600;
+					line-height: 25px;
+					letter-spacing: 0px;
+					text-align: left;
+					margin-left: 20px;
+					width: 239px;
+					height: 25px;
+
+
+				}
+			}
+		}
 	}
 }

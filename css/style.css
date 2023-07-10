@@ -1031,6 +1031,8 @@
   letter-spacing: 0px;
   text-align: center;
   width: 100%;
+  width: 604px;
+  height: 90px;
 }
 .whyBudss .box .whyBuds__top .box .whyBuds__subtitle .whyBuds__img-vector {
   background-image: url("../img/vector.png");
@@ -1042,6 +1044,7 @@
   max-width: 1300px;
   width: 100%;
   height: 744px;
+  margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1092,9 +1095,9 @@
 }
 .whyBudss .box .whyBuds__down .card .card-text .card__title {
   font-family: Outfit;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 60px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 34px;
   letter-spacing: 0px;
   text-align: left;
 }
@@ -1250,6 +1253,277 @@
   position: absolute;
 }
 
+@media (max-width: 376px) {
+  .whyBudss {
+    width: 375px;
+    height: 1689px;
+  }
+  .whyBudss .box .whyBuds__top {
+    margin-top: 80px;
+    width: 351px;
+    height: 120px;
+  }
+  .whyBudss .box .whyBuds__top .box {
+    width: 664px;
+    height: 348px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .whyBudss .box .whyBuds__top .box .whyBuds__title {
+    width: 210px;
+    height: 42px;
+    font-family: Outfit;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .whyBudss .box .whyBuds__top .box .whyBuds__subtitle {
+    margin-top: 20px;
+    font-family: Outfit;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 361px;
+    height: 58px;
+  }
+  .whyBudss .box .whyBuds__top .box .whyBuds__subtitle .whyBuds__img-vector {
+    background-image: url("../img/vector.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .whyBudss .box .whyBuds__down {
+    width: 343px;
+    height: 1463px;
+    margin: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .whyBudss .box .whyBuds__down .card {
+    width: 343px;
+    height: 362px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .whyBudss .box .whyBuds__down .card .card__img {
+    top: 200px;
+    left: 0px;
+    position: absolute;
+    width: 343px;
+    height: 193px;
+  }
+  .whyBudss .box .whyBuds__down .card .card-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 303px;
+    height: 144px;
+    margin: 0px;
+    margin-left: 20px;
+    margin-bottom: 170px;
+    margin-right: 18px;
+  }
+  .whyBudss .box .whyBuds__down .card .card-text .card__title {
+    margin: 0px;
+    font-family: Outfit;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 305px;
+    height: 68px;
+  }
+  .whyBudss .box .whyBuds__down .card .card-text .card__lead {
+    margin: 0px;
+    margin-top: 16px;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 303px;
+    height: 60px;
+  }
+  .whyBudss .box .whyBuds__down .card2 {
+    width: 343px;
+    height: 333px;
+    border-radius: 20px;
+    background: #F5F5F5;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+  }
+  .whyBudss .box .whyBuds__down .card2 .card2__img1 {
+    position: absolute;
+    top: 201px;
+    right: 0px;
+  }
+  .whyBudss .box .whyBuds__down .card2 .card2__img2 {
+    top: 270px;
+    left: 29.5808105469px;
+  }
+  .whyBudss .box .whyBuds__down .card2 .card2__img3 {
+    top: 248px;
+    left: 135px;
+    position: absolute;
+  }
+  .whyBudss .box .whyBuds__down .card2 .card-text2 {
+    margin: 0px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    margin-right: 18px;
+    width: 303px;
+    height: 184px;
+  }
+  .whyBudss .box .whyBuds__down .card2 .card-text2 .card__title2 {
+    color: black;
+    width: 291px;
+    height: 68px;
+    font-family: Outfit;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .whyBudss .box .whyBuds__down .card2 .card-text2 .card__lead2 {
+    margin-top: 16px;
+    width: 303px;
+    height: 100px;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .whyBudss .box .whyBuds__down .card3 {
+    width: 343px;
+    height: 313px;
+    border-radius: 20px;
+    background: #F5F5F5;
+    position: relative;
+    overflow: hidden;
+  }
+  .whyBudss .box .whyBuds__down .card3 .card-text3 {
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-right: 18px;
+    margin-top: 16px;
+  }
+  .whyBudss .box .whyBuds__down .card3 .card-text3 .card__title3 {
+    width: 303px;
+    height: 102px;
+    font-family: Outfit;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .whyBudss .box .whyBuds__down .card3 .card-text3 .card__lead3 {
+    margin-top: 16px;
+    width: 303px;
+    height: 60px;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .whyBudss .box .whyBuds__down .card3 .card3__img {
+    position: absolute;
+    top: 230px;
+    left: 141px;
+  }
+  .whyBudss .box .whyBuds__down .card4 {
+    width: 343px;
+    height: 395px;
+    border-radius: 20px;
+    margin: 0;
+    background: #F5F5F5;
+    position: relative;
+  }
+  .whyBudss .box .whyBuds__down .card4 .card-text4 {
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-right: 18px;
+  }
+  .whyBudss .box .whyBuds__down .card4 .card-text4 .card__title4 {
+    width: 303px;
+    height: 68px;
+    font-family: Outfit;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .whyBudss .box .whyBuds__down .card4 .card-text4 .card__lead4 {
+    width: 279px;
+    height: 100px;
+    margin-top: 16px;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .whyBudss .box .whyBuds__down .card4 .card4__img {
+    top: 210px;
+    left: 145px;
+    position: absolute;
+  }
+}
 .businessGrow {
   max-width: 1440px;
   width: 100%;

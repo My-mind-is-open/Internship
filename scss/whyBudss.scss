@@ -20,7 +20,6 @@
 			.box {
 				width: 664px;
 				height: 348px;
-
 				display: flex;
 				justify-content: center;
 				align-items: center;
@@ -48,6 +47,10 @@
 					letter-spacing: 0px;
 					text-align: center;
 					width: 100%;
+					width: 604px;
+					height: 90px;
+
+
 
 					.whyBuds__img-vector {
 						background-image: url('../img/vector.png');
@@ -64,6 +67,7 @@
 			width: 100%;
 			height: 744px;
 
+			margin-bottom: 20px;
 			display: flex;
 			flex-wrap: wrap;
 
@@ -99,13 +103,14 @@
 					margin-right: 40px;
 
 					.card__title {
-						//styleName: Title/T5_SemiBold_48;
+						//styleName: Title/T7_Bold_32;
 						font-family: Outfit;
-						font-size: 48px;
-						font-weight: 600;
-						line-height: 60px;
+						font-size: 32px;
+						font-weight: 700;
+						line-height: 34px;
 						letter-spacing: 0px;
 						text-align: left;
+
 
 					}
 
@@ -294,4 +299,332 @@
 
 		}
 	}
+}
+
+@media(max-width:376px) {
+	.whyBudss {
+		width: 375px;
+		height: 1689px;
+
+
+		.box {
+
+			.whyBuds__top {
+				margin-top: 80px;
+				width: 351px;
+				height: 120px;
+
+
+				.box {
+					width: 664px;
+					height: 348px;
+
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					.whyBuds__title {
+
+						width: 210px;
+						height: 42px;
+
+						font-family: Outfit;
+						font-size: 40px;
+						font-weight: 700;
+						line-height: 42px;
+						letter-spacing: 0px;
+						text-align: left;
+
+
+					}
+
+					.whyBuds__subtitle {
+						margin-top: 20px;
+
+						font-family: Outfit;
+						font-size: 24px;
+						font-weight: 600;
+						line-height: 29px;
+						letter-spacing: 0px;
+						text-align: center;
+						width: 361px;
+						height: 58px;
+
+
+						.whyBuds__img-vector {
+							background-image: url('../img/vector.png');
+							width: 100%;
+							background-size: cover;
+							background-repeat: no-repeat;
+						}
+					}
+
+				}
+			}
+
+			.whyBuds__down {
+				width: 343px;
+				height: 1463px;
+				margin: 0px;
+				display: flex;
+				flex-wrap: wrap;
+				margin-top: 40px;
+
+				.card {
+					width: 343px;
+					height: 362px;
+					border-radius: 30px;
+					position: relative;
+					overflow: hidden;
+					display: flex;
+					justify-content: flex-end;
+					align-items: center;
+
+
+					.card__img {
+						top: 200px;
+						left: 0px;
+						position: absolute;
+						width: 343px;
+						height: 193px;
+
+
+					}
+
+					.card-text {
+						display: flex;
+						justify-content: space-between;
+						flex-direction: column;
+						align-items: center;
+
+
+
+						width: 303px;
+						height: 144px;
+
+
+						margin: 0px;
+						margin-left: 20px;
+						margin-bottom: 170px;
+						margin-right: 18px;
+
+
+						.card__title {
+							margin: 0px;
+							font-family: Outfit;
+							font-size: 32px;
+							font-weight: 700;
+							line-height: 34px;
+							letter-spacing: 0px;
+							text-align: left;
+							width: 305px;
+							height: 68px;
+
+
+						}
+
+						.card__lead {
+							margin: 0px;
+							margin-top: 16px;
+							font-family: Outfit;
+							font-size: 16px;
+							font-weight: 400;
+							line-height: 20px;
+							letter-spacing: 0px;
+							text-align: left;
+							width: 303px;
+							height: 60px;
+
+
+
+						}
+					}
+				}
+
+				.card2 {
+					width: 343px;
+					height: 333px;
+					border-radius: 20px;
+					background: #F5F5F5;
+
+					position: relative;
+					display: flex;
+					justify-content: flex-start;
+					align-items: center;
+					margin: 0;
+
+					.card2__img1 {
+						position: absolute;
+						top: 201px;
+						right: 0px;
+					}
+
+					.card2__img2 {
+						top: 270px;
+						left: 29.580810546875px;
+					}
+
+					.card2__img3 {
+						top: 248px;
+						left: 135px;
+						position: absolute;
+
+					}
+
+					.card-text2 {
+						margin: 0px;
+						margin-left: 20px;
+						margin-bottom: 100px;
+						margin-right: 18px;
+						width: 303px;
+						height: 184px;
+
+						.card__title2 {
+							color: black;
+
+							width: 291px;
+							height: 68px;
+
+							font-family: Outfit;
+							font-size: 32px;
+							font-weight: 700;
+							line-height: 34px;
+							letter-spacing: 0px;
+							text-align: left;
+
+
+						}
+
+						.card__lead2 {
+							margin-top: 16px;
+							width: 303px;
+							height: 100px;
+							font-family: Outfit;
+							font-size: 16px;
+							font-weight: 400;
+							line-height: 20px;
+							letter-spacing: 0px;
+							text-align: left;
+						}
+					}
+
+				}
+
+				.card3 {
+					width: 343px;
+					height: 313px;
+					border-radius: 20px;
+					background: #F5F5F5;
+					position: relative;
+					overflow: hidden;
+
+					.card-text3 {
+						margin: 0px;
+						margin-left: 20px;
+						margin-top: 25px;
+						margin-right: 18px;
+						margin-top: 16px;
+
+						.card__title3 {
+							width: 303px;
+							height: 102px;
+
+							font-family: Outfit;
+							font-size: 32px;
+							font-weight: 700;
+							line-height: 34px;
+							letter-spacing: 0px;
+							text-align: left;
+
+
+
+
+
+						}
+
+						.card__lead3 {
+							margin-top: 16px;
+							width: 303px;
+							height: 60px;
+							font-family: Outfit;
+							font-size: 16px;
+							font-weight: 400;
+							line-height: 20px;
+							letter-spacing: 0px;
+							text-align: left;
+
+
+
+						}
+					}
+
+					.card3__img {
+						position: absolute;
+						top: 230px;
+						left: 141px;
+					}
+				}
+
+				.card4 {
+					width: 343px;
+					height: 395px;
+					border-radius: 20px;
+					margin: 0;
+					background: #F5F5F5;
+
+					position: relative;
+
+					.card-text4 {
+						margin: 0px;
+						margin-left: 20px;
+						margin-top: 25px;
+						margin-right: 18px;
+
+
+						.card__title4 {
+							width: 303px;
+							height: 68px;
+							font-family: Outfit;
+							font-size: 32px;
+							font-weight: 700;
+							line-height: 34px;
+							letter-spacing: 0px;
+							text-align: left;
+
+
+
+
+						}
+
+						.card__lead4 {
+							width: 279px;
+							height: 100px;
+							margin-top: 16px;
+							font-family: Outfit;
+							font-size: 16px;
+							font-weight: 400;
+							line-height: 20px;
+							letter-spacing: 0px;
+							text-align: left;
+
+
+						}
+					}
+
+					.card4__img {
+
+						top: 210px;
+						left: 145px;
+
+
+						position: absolute;
+					}
+
+
+				}
+
+			}
+		}
+	}
+
 }

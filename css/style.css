@@ -445,7 +445,7 @@
 @media (max-width: 376px) {
   .about {
     width: 375px;
-    height: 1235px;
+    height: 1310px;
     overflow-x: hidden;
   }
   .about .box {
@@ -670,6 +670,87 @@
   -webkit-text-stroke-width: 1px;
 }
 
+@media (max-width: 376px) {
+  .howWorks {
+    overflow-x: hidden;
+    width: 375px;
+    height: 600px;
+  }
+  .howWorks .box {
+    margin-top: 40px;
+  }
+  .howWorks .box .howWorks__img {
+    width: 228px;
+    height: 461px;
+  }
+  .howWorks .box .howWorks__title1 {
+    font-family: Outfit;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 388px;
+    height: 51px;
+    top: 101px;
+    left: -160px;
+  }
+  .howWorks .box .howWorks__title2 {
+    top: 101px;
+    right: -300px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 430px;
+    height: 51px;
+  }
+  .howWorks .box .howWorks__title3 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 428px;
+    height: 51px;
+    left: -292px;
+    top: 245px;
+  }
+  .howWorks .box .howWorks__title4 {
+    top: 245px;
+    right: -150px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 388px;
+    height: 51px;
+  }
+  .howWorks .box .howWorks__title5 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 388px;
+    height: 51px;
+    top: 389px;
+    left: -261px;
+  }
+  .howWorks .box .howWorks__title6 {
+    width: 388px;
+    height: 51px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0px;
+    text-align: left;
+    top: 389px;
+    right: -147px;
+  }
+}
 .billboard {
   max-width: 1440px;
   width: 100%;

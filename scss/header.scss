@@ -171,9 +171,13 @@
 @media(max-width:376px) {
 	.header {
 		width: 375px;
-		height: 817px;
+		height: 100px;
 
 		.box {
+			width: 375px;
+			height: 100%;
+			// border: 3px solid red;
+
 			.header_level1 {
 				max-width: 375px;
 

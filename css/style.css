@@ -2121,6 +2121,7 @@
   width: 100%;
   max-width: 1440px;
   height: 1080px;
+  display: none;
 }
 .fullform .fullform__container {
   position: absolute;
@@ -2130,7 +2131,6 @@
           transform: translate(-50%, -12%);
   width: 417px;
   height: 587px;
-  display: none;
   z-index: 1000;
 }
 .fullform .fullform__container .form {
@@ -2284,7 +2284,7 @@
   border: none;
 }
 .fullform .successful-Form {
-  display: block;
+  display: none;
   position: absolute;
   top: 12%;
   left: 50%;
@@ -2359,6 +2359,7 @@
           justify-content: center;
   color: white;
   cursor: pointer;
+  border: none;
 }
 .fullform .successful-Form .box .successful-Form__close {
   background-image: url("../img/icon_close.png");

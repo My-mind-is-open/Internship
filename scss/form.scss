@@ -6,7 +6,7 @@
 	width: 100%;
 	max-width: 1440px;
 	height: 1080px;
-
+	display: none;
 
 	.fullform__container {
 		position: absolute;
@@ -15,7 +15,7 @@
 		transform: translate(-50%, -12%);
 		width: 417px;
 		height: 587px;
-		display: none;
+		// display: none;
 		z-index: 1000;
 
 		.form {
@@ -172,7 +172,7 @@
 	}
 
 	.successful-Form {
-		display: block;
+		display: none;
 		position: absolute;
 		top: 12%;
 		left: 50%;
@@ -243,6 +243,7 @@
 				justify-content: center;
 				color: white;
 				cursor: pointer;
+				border: none;
 			}
 
 			.successful-Form__close {

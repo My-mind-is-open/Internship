@@ -12,8 +12,11 @@ const inputsContainers = document.querySelector('.inputs ');
 
 const boxInputName = document.querySelector('.box-input__name')
 const boxInputEmail = document.querySelector('.box-input__email');
-const boxInputPhone = document.querySelector('.box-input__phone')
+const boxInputPhone = document.querySelector('.box-input__phone');
 
+const closeSucceedForm = document.querySelector('.successful-Form__close');
+const succeedForm = document.querySelector('.successful-Form');
+const successfulFormBtn = document.querySelector('.successful-Form__btn');
 let label = true;
 
 let inputName = document.querySelector('.req1');
@@ -34,6 +37,12 @@ navClose.addEventListener('click', () => {
 
 // form
 
+closeSucceedForm.addEventListener('click', () => {
+	fullform.style.display = 'none';
+});
+successfulFormBtn.addEventListener('click', () => {
+	fullform.style.display = 'none';
+});
 
 for (let i = 0; i < btnForm.length; i++) {
 	btnForm[i].addEventListener('click', () => {
@@ -141,10 +150,11 @@ function retrieveFormValue(event) {
 		console.log(label)
 
 	}
-	// const emptyOrder = !Object.keys(values).length;
-	// if (emptyOrder) {
+	if (inputName.value !== '' && inputEmail.value !== '' && inputPhone.value !== '') {
+		formSize.style.display = 'none';
+		succeedForm.style.display = 'block';
+		console.log(values)
+	}
 
-	// }
-	console.log(values)
 }
 form.addEventListener('submit', retrieveFormValue);

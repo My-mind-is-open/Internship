@@ -12,6 +12,7 @@
 @import 'whyBudss';
 @import 'businessGrow';
 @import 'footer';
+@import 'form';
 
 
 * {
@@ -62,6 +63,58 @@ body {
 	color: #FFFFFF;
 
 }
+
+// .box-input {
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: flex-start;
+// 	align-items: flex-start;
+// 	width: 337px;
+// 	height: 66px;
+// 	margin-top: 10px;
+
+
+// 	.input {
+// 		width: 337px;
+// 		height: 40px;
+// 		padding: 10px 16px 10px 16px;
+// 		border-radius: 14px;
+// 		border: 1px solid #F1F1F1;
+// 		margin-top: 4px;
+
+// 		font-family: Outfit;
+// 		font-size: 14px;
+// 		font-weight: 400;
+// 		line-height: 22px;
+// 		letter-spacing: 0px;
+// 		text-align: left;
+
+// 	}
+
+// 	.input:focus {
+// 		outline: none;
+// 	}
+
+// 	.label {
+// 		color: black;
+// 		font-family: Outfit;
+// 		font-size: 14px;
+// 		font-weight: 500;
+// 		line-height: 22px;
+// 		letter-spacing: 0em;
+// 		text-align: left;
+// 		width: 127px;
+
+
+// 		.star {
+// 			color: #FF6C2D;
+// 			margin-left: 1px;
+// 		}
+
+
+// 	}
+
+// }
 
 @media(max-width:376px) {
 	.wrapper {

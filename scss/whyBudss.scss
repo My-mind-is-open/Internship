@@ -93,24 +93,27 @@
 
 				.card-text {
 					display: flex;
-					justify-content: space-between;
+					justify-content: center;
 					flex-direction: column;
-					align-items: center;
+					align-items: flex-start;
 
 					width: 364px;
-					height: 180px;
-					margin-bottom: 100px;
+					height: 272px;
+
 					margin-right: 40px;
+					margin-bottom: 15px;
 
 					.card__title {
 						//styleName: Title/T7_Bold_32;
 						font-family: Outfit;
-						font-size: 32px;
+						font-size: 48px;
 						font-weight: 700;
-						line-height: 34px;
+						line-height: 61px;
 						letter-spacing: 0px;
 						text-align: left;
 
+						width: 364px;
+						height: 180px;
 
 					}
 
@@ -401,7 +404,6 @@
 
 						width: 303px;
 						height: 144px;
-
 
 						margin: 0px;
 						margin-left: 20px;

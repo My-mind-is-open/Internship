@@ -1,0 +1,345 @@
+.fullform {
+	position: fixed;
+	top: 0;
+
+	z-index: 7;
+	width: 100%;
+	max-width: 1440px;
+	height: 1080px;
+
+
+	.fullform__container {
+		position: absolute;
+		top: 12%;
+		left: 50%;
+		transform: translate(-50%, -12%);
+		width: 417px;
+		height: 587px;
+		display: none;
+		z-index: 1000;
+
+		.form {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			position: relative;
+
+			background-color: white;
+			padding: 40px;
+			border-radius: 20px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-direction: column;
+
+			.fullform__close {
+				background-image: url('../img/icon_close.png');
+				width: 26px;
+				height: 26px;
+				background-repeat: no-repeat;
+				background-size: contain;
+				position: absolute;
+				top: 16px;
+				right: 16px;
+				cursor: pointer;
+
+
+			}
+
+			.form__wrap {
+
+				margin-top: 0px;
+				margin-left: 40px;
+				margin-right: 40px;
+
+				height: 620px;
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-start;
+				flex-direction: column;
+
+				.inputs {
+					width: 337px;
+					height: 100%;
+
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					flex-direction: column;
+
+
+					.box {
+						.box-input {
+							display: flex;
+							flex-direction: column;
+							justify-content: flex-start;
+							align-items: flex-start;
+							width: 337px;
+							height: 66px;
+							margin-top: 10px;
+
+
+							.input {
+								width: 337px;
+								height: 40px;
+								padding: 10px 16px 10px 16px;
+								border-radius: 14px;
+								border: 1px solid #F1F1F1;
+								margin-top: 4px;
+
+								font-family: Outfit;
+								font-size: 14px;
+								font-weight: 400;
+								line-height: 22px;
+								letter-spacing: 0px;
+								text-align: left;
+
+							}
+
+							.input:focus {
+								outline: none;
+							}
+
+							.label {
+								color: black;
+								font-family: Outfit;
+								font-size: 14px;
+								font-weight: 500;
+								line-height: 22px;
+								letter-spacing: 0em;
+								text-align: left;
+								width: 127px;
+
+
+								.star {
+									color: #FF6C2D;
+									margin-left: 1px;
+								}
+
+
+							}
+
+						}
+					}
+
+				}
+
+				.form__text {
+					margin-top: 20px;
+					font-family: Outfit;
+					font-size: 14px;
+					font-weight: 300;
+					line-height: 20px;
+					letter-spacing: 0px;
+					text-align: left;
+
+
+					color: #000000;
+
+					.form__link {
+						text-decoration: none;
+						color: #954CED;
+						cursor: pointer;
+					}
+				}
+
+				.form__btn {
+					margin-top: 20px;
+					background-color: #B9B9B9;
+					width: 187px;
+					height: 57px;
+					padding: 16px 30px 16px 30px;
+					border-radius: 16px;
+					gap: 14px;
+					color: #FFFFFF;
+					font-family: 'Outfit';
+					font-size: 20px;
+					font-weight: 600;
+					line-height: 25px;
+					letter-spacing: 0px;
+					cursor: pointer;
+					border: none;
+
+				}
+
+
+			}
+
+
+
+		}
+
+	}
+
+	.successful-Form {
+		display: block;
+		position: absolute;
+		top: 12%;
+		left: 50%;
+		transform: translate(-50%, -12%);
+		width: 417px;
+		height: 561px;
+		background: white;
+		border-radius: 20px;
+
+		.box {
+
+			position: relative;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-direction: column;
+			width: 100%;
+			height: 100%;
+			padding: 40px 40px 40px 40px;
+
+
+
+			.successful-Form__title {
+
+				font-family: Outfit;
+				font-size: 36px;
+				font-weight: 600;
+				line-height: 45px;
+				letter-spacing: 0px;
+				text-align: center;
+				color: #A64CED;
+				width: 337px;
+				height: 45px;
+
+
+			}
+
+			.successful-Form__lead {
+				//styleName: Subtitle/S3_Regular_24;
+				font-family: Outfit;
+				font-size: 24px;
+				font-weight: 400;
+				line-height: 29px;
+				letter-spacing: 0px;
+				text-align: center;
+				color: #444444;
+				width: 345px;
+				height: 87px;
+
+
+			}
+
+			.successful-Form__btn {
+				width: 337px;
+				height: 57px;
+				padding: 16px 30px 16px 30px;
+				border-radius: 16px;
+				background-color: #954CED;
+				//styleName: Subtitle/S4_SemiBold_20;
+				font-family: Outfit;
+				font-size: 20px;
+				font-weight: 600;
+				line-height: 25px;
+				letter-spacing: 0px;
+				text-align: left;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: white;
+				cursor: pointer;
+			}
+
+			.successful-Form__close {
+				background-image: url('../img/icon_close.png');
+				width: 26px;
+				height: 26px;
+				background-repeat: no-repeat;
+				background-size: contain;
+				position: absolute;
+				top: 16px;
+				right: 16px;
+				cursor: pointer;
+				position: absolute;
+				background-image: url('../img/icon_close.png');
+			}
+		}
+	}
+}
+
+.input-numer::placeholder {
+	background-image: url('../img/united-states-of-america.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.error-value {
+	border: 1px solid red !important;
+}
+
+.error-lead {
+	width: 109px;
+	height: 20px;
+	color: red;
+
+	font-family: Outfit;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-top: 4px;
+
+}
+
+.error-lead2 {
+	width: 109px;
+	height: 20px;
+	color: red;
+
+	font-family: Outfit;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-top: 4px;
+}
+
+.error-lead3 {
+	width: 109px;
+	height: 20px;
+	color: red;
+
+	font-family: Outfit;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-top: 4px;
+}
+
+.error-text {
+	margin-top: 20px;
+	color: red;
+	font-family: Outfit;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0px;
+	text-align: left;
+	width: 100%;
+	height: 20px;
+
+
+}
+
+
+.error-box {
+	height: 90px !important;
+
+}
+
+.error-box2 {
+	height: 90px !important;
+}
+
+.error-box3 {
+	height: 90px !important;
+}

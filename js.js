@@ -75,7 +75,15 @@ function retrieveFormValue(event) {
 			errorLead.innerText = 'This field is required.';
 			errorLead.classList.add('error-lead')
 			boxInputName.appendChild(errorLead);
-			formSize.style.height = '699' + 'px';
+			// formSize.style.height = '699' + 'px';
+			if (window.innerWidth > 375) {
+				formSize.style.height = '699' + 'px';
+			} else {
+				formSize.style.height = '659' + 'px';
+				formSize.style.top = '2' + '%';
+				formSize.style.transform = 'translate(-50%, -2%)'
+
+			}
 
 		}
 
@@ -100,7 +108,16 @@ function retrieveFormValue(event) {
 			errorLead.innerText = 'This field is required.';
 			errorLead.classList.add('error-lead');
 			boxInputEmail.appendChild(errorLead);
-			formSize.style.height = '699' + 'px';
+
+			if (window.innerWidth > 375) {
+				formSize.style.height = '699' + 'px';
+			} else {
+				formSize.style.height = '659' + 'px';
+				formSize.style.top = '2' + '%';
+				formSize.style.transform = 'translate(-50%, -2%)'
+
+			}
+
 		}
 
 	} else {
@@ -123,7 +140,15 @@ function retrieveFormValue(event) {
 			errorLead.innerText = 'This field is required.';
 			errorLead.classList.add('error-lead');
 			boxInputPhone.appendChild(errorLead);
-			formSize.style.height = '699' + 'px';
+			// formSize.style.height = '699' + 'px';
+			if (window.innerWidth > 375) {
+				formSize.style.height = '699' + 'px';
+			} else {
+				formSize.style.height = '659' + 'px';
+				formSize.style.top = '2' + '%';
+				formSize.style.transform = 'translate(-50%, -2%)'
+
+			}
 		}
 
 	} else {

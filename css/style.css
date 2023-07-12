@@ -2473,6 +2473,161 @@
   height: 90px !important;
 }
 
+@media (max-width: 376px) {
+  .fullform .fullform__container {
+    width: 335px;
+    height: 555px;
+  }
+  .fullform .fullform__container .form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+  }
+  .fullform .fullform__container .form .form__wrap {
+    margin-top: -25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 620px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fullform .fullform__container .form .form__wrap .inputs {
+    width: 303px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fullform .fullform__container .form .form__wrap .inputs .box {
+    width: 100%;
+  }
+  .fullform .fullform__container .form .form__wrap .inputs .box .box-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 337px;
+    height: 66px;
+    margin-top: 10px;
+  }
+  .fullform .fullform__container .form .form__wrap .inputs .box .box-input .input {
+    width: 303px;
+    height: 40px;
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .fullform .fullform__container .form .form__wrap .inputs .box .box-input .input:focus {
+    outline: none;
+  }
+  .fullform .fullform__container .form .form__wrap .inputs .box .box-input .label {
+    color: black;
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 127px;
+  }
+  .fullform .fullform__container .form .form__wrap .inputs .box .box-input .label .star {
+    color: #FF6C2D;
+    margin-left: 1px;
+  }
+  .fullform .fullform__container .form .form__wrap .form__text {
+    margin-top: 20px;
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .fullform .fullform__container .form .form__wrap .form__text .form__link {
+    text-decoration: none;
+    color: #954CED;
+    cursor: pointer;
+  }
+  .fullform .fullform__container .form .form__wrap .form__btn {
+    margin-top: 20px;
+    background-color: #B9B9B9;
+    width: 303px;
+    height: 57px;
+  }
+  .fullform .successful-Form {
+    width: 335px;
+    height: 477px;
+  }
+  .fullform .successful-Form .box .successful-Form__img {
+    width: 229px;
+    height: 179px;
+  }
+  .fullform .successful-Form .box .successful-Form__title {
+    width: 229px;
+    height: 29px;
+    font-family: Outfit;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .fullform .successful-Form .box .successful-Form__lead {
+    width: 295px;
+    height: 72px;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .fullform .successful-Form .box .successful-Form__btn {
+    width: 255px;
+    height: 57px;
+    padding: 16px 30px 16px 30px;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+  }
+}
 * {
   margin: 0px;
   padding: 0px;

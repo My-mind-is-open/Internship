@@ -8,8 +8,12 @@ const fullform = document.querySelector('.fullform');
 const closeBtnForm = document.querySelector('.fullform__close');
 const formSize = document.querySelector('.fullform__container')
 const inputsContainers = document.querySelector('.inputs ');
-
-
+// cookies
+const cookies = document.querySelector('.cookies');
+const cookiesBtnAccept = document.querySelector('.cookies__btn-accept');
+const cookiesBtnDecline = document.querySelector('.cookies__btn-decline');
+const cookiesBtnClose = document.querySelector('.cookies__btn-close');
+// inputRequired
 const boxInputName = document.querySelector('.box-input__name')
 const boxInputEmail = document.querySelector('.box-input__email');
 const boxInputPhone = document.querySelector('.box-input__phone');
@@ -33,7 +37,16 @@ hederBtnmenu.addEventListener('click', () => {
 navClose.addEventListener('click', () => {
 	nav.style.display = "none";
 })
-
+// cockiesAction
+cookiesBtnAccept.addEventListener('click', () => {
+	cookies.style.display = 'none';
+})
+cookiesBtnDecline.addEventListener('click', () => {
+	cookies.style.display = 'none';
+})
+cookiesBtnClose.addEventListener('click', () => {
+	cookies.style.display = 'none';
+})
 
 // form
 

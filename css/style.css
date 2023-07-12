@@ -249,7 +249,7 @@
   margin-top: 40px;
 }
 .hero .box .hero-right {
-  margin-top: 62px;
+  margin-top: 133px;
 }
 
 @media (max-width: 376px) {
@@ -2628,6 +2628,96 @@
     letter-spacing: 0px;
   }
 }
+.cookies {
+  position: absolute;
+  top: 580px;
+  left: 130px;
+  width: 1285px;
+  height: 117px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+}
+.cookies .box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.cookies .box .cookies__btn-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/icon-button-close.png");
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.cookies .box .cookies__lead {
+  width: 783px;
+  height: 56px;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 30px;
+}
+.cookies .box .cookies-btns {
+  width: 272px;
+  height: 57px;
+  margin-right: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.cookies .box .cookies-btns .cookies__btn-accept {
+  width: 124px;
+  height: 57px;
+  padding: 16px 30px 16px 30px;
+  border-radius: 16px;
+  background: #954CED;
+  border: none;
+  cursor: pointer;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: white;
+}
+.cookies .box .cookies-btns .cookies__btn-decline {
+  width: 128px;
+  height: 57px;
+  padding: 16px 30px 16px 30px;
+  border-radius: 16px;
+  border: 2px solid #954CED;
+  cursor: pointer;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: black;
+}
+
 * {
   margin: 0px;
   padding: 0px;

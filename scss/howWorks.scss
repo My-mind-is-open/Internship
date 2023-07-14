@@ -6,13 +6,243 @@
 	height: 836px;
 
 	background: #000;
-	overflow: hidden;
+
 	z-index: 1;
+	padding-top: 100px;
+
 
 	.box {
-		width: 100%;
-		height: 100%;
+		// width: 100%;
+		// height: 100%;
 		position: relative;
+		width: 1440px;
+		height: 636px;
+
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: column;
+		overflow-x: hidden;
+
+		.box-top {
+			width: 2360px;
+			height: 136px;
+
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin: 10px;
+
+
+			animation-direction: reverse;
+			animation-duration: 18s;
+			animation-name: move;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+
+
+			.divHq {
+
+				width: 1200px;
+				height: 136px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+
+				margin-right: 0px;
+				margin-left: 35px;
+
+
+				.howWorks__title1 {
+					// position: absolute;
+					// top: 146px;
+					// left: -274px;
+					font-family: Outfit;
+					font-size: 128px;
+					font-weight: 700;
+					line-height: 136px;
+					letter-spacing: 0px;
+					text-align: left;
+					color: #2FDBBC;
+					z-index: 2;
+					margin: 0;
+
+				}
+			}
+
+			.divHq2 {
+				width: 1094px;
+				height: 136px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+
+				margin-right: 50px;
+
+
+				.howWorks__title2 {
+					// position: absolute;
+					// top: 146px;
+					// right: -466px;
+					font-family: 'Noto Sans JP', sans-serif;
+					font-size: 121px;
+					font-weight: 700;
+					line-height: 136px;
+					// letter-spacing: 0px;
+					text-align: left;
+					-webkit-text-stroke-color: #444444;
+					-webkit-text-stroke-width: 1px;
+
+
+
+
+				}
+			}
+
+
+
+		}
+
+		.box-middle {
+			width: 3142px;
+			height: 136px;
+
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+
+
+
+
+
+			animation-direction: reverse;
+			animation-duration: 16s;
+			animation-name: remove;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+
+			.divHq3 {
+				width: 1200px;
+				height: 136px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+
+				margin-left: 628px;
+
+
+				.howWorks__title3 {
+					// position: absolute;
+					// top: 350px;
+					// left: -90px;
+
+					font-family: 'Noto Sans JP', sans-serif;
+					font-size: 121px;
+					font-weight: 700;
+					line-height: 136px;
+					// letter-spacing: 0px;
+					text-align: left;
+					-webkit-text-stroke-color: #444444;
+					-webkit-text-stroke-width: 1px;
+				}
+			}
+
+			.divHq4 {
+				width: 1094px;
+				height: 136px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+
+				margin-left: 20px;
+
+
+				.howWorks__title4 {
+					// position: absolute;
+					// top: 357px;
+
+					// right: -545px;
+					margin-top: 15px;
+					color: #A64CED;
+					font-family: Outfit;
+					font-size: 122px;
+					font-weight: 700;
+					line-height: 136px;
+					letter-spacing: 0px;
+					text-align: left;
+
+				}
+			}
+		}
+
+		.box-dow {
+			width: 2500px;
+			height: 136px;
+
+			margin-bottom: 10px;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+
+			animation-direction: reverse;
+			animation-duration: 16.7s;
+			animation-name: move;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+
+
+			.divHq5 {
+				width: 1060px;
+				height: 136px;
+				display: flex;
+				align-items: center;
+				margin: 0px;
+
+
+				.howWorks__title5 {
+					// position: absolute;
+					// top: 554px;
+					// left: -528px;
+					font-family: Outfit;
+					font-size: 128px;
+					font-weight: 700;
+					line-height: 136px;
+					letter-spacing: 0px;
+					text-align: left;
+					color: #FFAA4C;
+					width: 1034px;
+					height: 136px;
+					margin: 0px;
+				}
+			}
+
+			.divHq6 {
+				width: 1094px;
+				height: 136px;
+				margin: 0px;
+
+				.howWorks__title6 {
+
+					// position: absolute;
+					// top: 554px;
+					// right: -140px;
+					font-family: 'Noto Sans JP', sans-serif;
+					font-size: 121px;
+					font-weight: 700;
+					line-height: 136px;
+					// letter-spacing: 0px;
+					text-align: left;
+					-webkit-text-stroke-color: #444444;
+					-webkit-text-stroke-width: 1px;
+					margin: 0px;
+				}
+			}
+
+		}
+
+
+
+
 
 
 		.howWorks__img {
@@ -24,99 +254,29 @@
 			z-index: 3;
 		}
 
-		.howWorks__title1 {
-			position: absolute;
-			top: 146px;
-			left: -274px;
-			font-family: Outfit;
-			font-size: 128px;
-			font-weight: 700;
-			line-height: 136px;
-			letter-spacing: 0px;
-			text-align: left;
-			color: #2FDBBC;
-			z-index: 2;
-			width: 1034px;
-			height: 136px;
-		}
-
-		.howWorks__title2 {
-			position: absolute;
-			top: 146px;
-			right: -466px;
-			font-family: 'Noto Sans JP', sans-serif;
-			font-size: 121px;
-			font-weight: 700;
-			line-height: 136px;
-			// letter-spacing: 0px;
-			text-align: left;
-			-webkit-text-stroke-color: #444444;
-			-webkit-text-stroke-width: 1px;
-			width: 1120px;
-			height: 136px;
-
-		}
-
-		.howWorks__title3 {
-			position: absolute;
-			top: 350px;
-			left: -90px;
-			font-family: 'Noto Sans JP', sans-serif;
-			font-size: 121px;
-			font-weight: 700;
-			line-height: 136px;
-			// letter-spacing: 0px;
-			text-align: left;
-			-webkit-text-stroke-color: #444444;
-			-webkit-text-stroke-width: 1px;
-		}
-
-		.howWorks__title4 {
-			position: absolute;
-			top: 357px;
-			color: #A64CED;
-			right: -545px;
-			font-family: Outfit;
-			font-size: 122px;
-			font-weight: 700;
-			line-height: 136px;
-			letter-spacing: 0px;
-			text-align: left;
-
-		}
-
-		.howWorks__title5 {
-			position: absolute;
-			top: 554px;
-			left: -528px;
-			font-family: Outfit;
-			font-size: 128px;
-			font-weight: 700;
-			line-height: 136px;
-			letter-spacing: 0px;
-			text-align: left;
-			color: #FFAA4C;
-			width: 1034px;
-			height: 136px;
-
-		}
-
-		.howWorks__title6 {
-
-			position: absolute;
-			top: 554px;
-			right: -140px;
-			font-family: 'Noto Sans JP', sans-serif;
-			font-size: 121px;
-			font-weight: 700;
-			line-height: 136px;
-			// letter-spacing: 0px;
-			text-align: left;
-			-webkit-text-stroke-color: #444444;
-			-webkit-text-stroke-width: 1px;
-		}
 	}
 }
+
+@keyframes move {
+	from {
+		margin-right: -300%;
+	}
+
+	to {
+		margin-right: 300%;
+	}
+}
+
+@keyframes remove {
+	from {
+		margin-right: 300%;
+	}
+
+	to {
+		margin-right: -300%;
+	}
+}
+
 
 @media(max-width:376px) {
 	.howWorks {
@@ -135,6 +295,7 @@
 
 
 			}
+
 
 			.howWorks__title1 {
 

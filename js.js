@@ -70,7 +70,7 @@ closeBtnForm.addEventListener('click', () => {
 
 function retrieveFormValue(event) {
 	event.preventDefault();
-	const fields = document.querySelectorAll(".req");
+	const fields = document.querySelectorAll("input");
 
 	const values = {};
 	fields.forEach(field => {

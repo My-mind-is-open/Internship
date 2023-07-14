@@ -313,6 +313,7 @@
 .about {
   background: #000;
   height: 1116px;
+  overflow: hidden;
 }
 .about .box {
   display: -webkit-box;
@@ -751,8 +752,8 @@
       -ms-flex-align: center;
           align-items: center;
   animation-direction: reverse;
-  -webkit-animation-duration: 16.7s;
-          animation-duration: 16.7s;
+  -webkit-animation-duration: 16.3s;
+          animation-duration: 16.3s;
   -webkit-animation-name: move;
           animation-name: move;
   -webkit-animation-iteration-count: infinite;
@@ -843,83 +844,253 @@
 }
 @media (max-width: 376px) {
   .howWorks {
-    overflow-x: hidden;
-    width: 375px;
-    height: 600px;
+    max-width: 375px;
+    width: 100%;
+    height: 620px;
+    background: #000;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .howWorks .box {
-    bottom: 0px;
+    bottom: 50px;
+    position: relative;
+    width: 100%;
+    height: 550;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow-x: hidden;
+    margin-top: 0px;
   }
-  .howWorks .box .howWorks__img {
-    width: 228px;
-    height: 461px;
+  .howWorks .box .box-top {
+    width: 1200px;
+    height: 51px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 66px;
+    animation-direction: reverse;
+    -webkit-animation-duration: 18s;
+            animation-duration: 18s;
+    -webkit-animation-name: move;
+            animation-name: move;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
   }
-  .howWorks .box .howWorks__title1 {
+  .howWorks .box .box-top .divHq {
+    width: 389px;
+    height: 51px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 0px;
+    margin-left: 255px;
+  }
+  .howWorks .box .box-top .divHq .howWorks__title1 {
     font-family: Outfit;
     font-size: 48px;
     font-weight: 700;
     line-height: 51px;
     letter-spacing: 0px;
     text-align: left;
-    width: 388px;
-    height: 51px;
-    top: 133px;
-    left: -160px;
   }
-  .howWorks .box .howWorks__title2 {
-    top: 133px;
-    right: -300px;
+  .howWorks .box .box-top .divHq2 {
+    width: 389px;
+    height: 51px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-right: 147px;
+  }
+  .howWorks .box .box-top .divHq2 .howWorks__title2 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .howWorks .box .box-middle {
+    width: 1304px;
+    height: 51px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0px;
+    animation-direction: reverse;
+    -webkit-animation-duration: 16s;
+            animation-duration: 16s;
+    -webkit-animation-name: remove;
+            animation-name: remove;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  .howWorks .box .box-middle .divHq3 {
+    width: 499px;
+    height: 51px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-left: 93px;
+  }
+  .howWorks .box .box-middle .divHq3 .howWorks__title3 {
     font-size: 48px;
     font-weight: 700;
     line-height: 51px;
     letter-spacing: 0px;
     text-align: left;
-    width: 430px;
-    height: 51px;
+    font-family: "Noto Sans JP", sans-serif;
+    -webkit-text-stroke-color: #444444;
+    -webkit-text-stroke-width: 1px;
   }
-  .howWorks .box .howWorks__title3 {
+  .howWorks .box .box-middle .divHq4 {
+    width: 392px;
+    height: 51px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 9px;
+  }
+  .howWorks .box .box-middle .divHq4 .howWorks__title4 {
+    font-family: Outfit;
     font-size: 48px;
     font-weight: 700;
     line-height: 51px;
     letter-spacing: 0px;
     text-align: left;
-    width: 428px;
-    height: 51px;
-    left: -292px;
-    top: 270px;
   }
-  .howWorks .box .howWorks__title4 {
-    top: 270px;
-    right: -150px;
+  .howWorks .box .box-dow {
+    width: 880px;
+    height: 51px;
+    margin-bottom: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    animation-direction: reverse;
+    -webkit-animation-duration: 16.3s;
+            animation-duration: 16.3s;
+    -webkit-animation-name: move;
+            animation-name: move;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  .howWorks .box .box-dow .divHq5 {
+    width: 389px;
+    height: 51px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 0px;
+    bottom: 0px;
+  }
+  .howWorks .box .box-dow .divHq5 .howWorks__title5 {
+    height: 51px;
+    font-family: Outfit;
     font-size: 48px;
     font-weight: 700;
     line-height: 51px;
     letter-spacing: 0px;
     text-align: left;
-    width: 388px;
-    height: 51px;
   }
-  .howWorks .box .howWorks__title5 {
-    font-size: 48px;
+  .howWorks .box .box-dow .divHq6 {
+    width: 399px;
+    height: 51px;
+    margin: 0px;
+  }
+  .howWorks .box .box-dow .divHq6 .howWorks__title6 {
+    margin: 0px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 44px;
     font-weight: 700;
     line-height: 51px;
     letter-spacing: 0px;
     text-align: left;
-    width: 388px;
-    height: 51px;
-    top: 419px;
-    left: -261px;
+    -webkit-text-stroke-color: #444444;
+    -webkit-text-stroke-width: 1px;
+    margin: 0px;
   }
-  .howWorks .box .howWorks__title6 {
-    width: 420px;
-    height: 51px;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 51px;
-    letter-spacing: 0px;
-    text-align: left;
-    top: 419px;
-    right: -170px;
+  .howWorks .box .howWorks__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border: none;
+    z-index: 3;
+    border: none;
+    width: 228px;
+    height: 461px;
   }
 }
 .billboard {

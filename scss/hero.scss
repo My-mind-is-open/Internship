@@ -1,8 +1,10 @@
+@import 'variables';
+
 .hero {
 	height: 591px;
 	width: 100%;
 	max-width: 1440px;
-	background: black;
+	background: $color-b;
 
 	.box {
 		display: flex;
@@ -31,7 +33,7 @@
 					line-height: 24px;
 					letter-spacing: 0px;
 					text-align: left;
-					color: #FFFFFF;
+					color: $color-w;
 					margin-top: 20px;
 					width: 534px;
 				}
@@ -60,7 +62,7 @@
 			flex-direction: column;
 			height: 100%;
 			margin-top: 0px;
-			border: 1px solid black;
+			border: 1px solid $color-b;
 
 			.hero-left {
 				margin-top: 0px;

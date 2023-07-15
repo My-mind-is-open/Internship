@@ -1,16 +1,19 @@
+@import 'variables';
+
 .fullform {
 	position: fixed;
-	top: 0;
 
-	z-index: 7;
+
+	z-index: 1000;
 	width: 100%;
 	max-width: 1440px;
 	height: 1080px;
 	display: none;
+	top: -100px;
 
 	.fullform__container {
 		position: absolute;
-		top: 12%;
+		top: 21%;
 		left: 50%;
 		transform: translate(-50%, -12%);
 		width: 417px;
@@ -25,7 +28,7 @@
 			height: 100%;
 			position: relative;
 
-			background-color: white;
+			background-color: $color-w;
 			padding: 40px;
 			border-radius: 20px;
 			display: flex;
@@ -102,7 +105,7 @@
 							}
 
 							.label {
-								color: black;
+								color: $color-b;
 								font-family: Outfit;
 								font-size: 14px;
 								font-weight: 500;
@@ -113,7 +116,7 @@
 
 
 								.star {
-									color: #FF6C2D;
+									color: $color-star;
 									margin-left: 1px;
 								}
 
@@ -139,20 +142,20 @@
 
 					.form__link {
 						text-decoration: none;
-						color: #954CED;
+						color: $color-f;
 						cursor: pointer;
 					}
 				}
 
 				.form__btn {
 					margin-top: 20px;
-					background-color: #B9B9B9;
+					background-color: $color-copy;
 					width: 187px;
 					height: 57px;
 					padding: 16px 30px 16px 30px;
 					border-radius: 16px;
 					gap: 14px;
-					color: #FFFFFF;
+					color: $color-w;
 					font-family: 'Outfit';
 					font-size: 20px;
 					font-weight: 600;
@@ -175,12 +178,12 @@
 	.successful-Form {
 		display: none;
 		position: absolute;
-		top: 12%;
+		top: 21%;
 		left: 50%;
 		transform: translate(-50%, -12%);
 		width: 417px;
 		height: 561px;
-		background: white;
+		background: $color-w;
 		border-radius: 20px;
 
 		.box {
@@ -218,7 +221,7 @@
 				line-height: 29px;
 				letter-spacing: 0px;
 				text-align: center;
-				color: #444444;
+				color: $color-bor;
 				width: 345px;
 				height: 87px;
 
@@ -230,7 +233,7 @@
 				height: 57px;
 				padding: 16px 30px 16px 30px;
 				border-radius: 16px;
-				background-color: #954CED;
+				background-color: $color-f;
 				//styleName: Subtitle/S4_SemiBold_20;
 				font-family: Outfit;
 				font-size: 20px;
@@ -241,7 +244,7 @@
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				color: white;
+				color: $color-w;
 				cursor: pointer;
 				border: none;
 			}
@@ -270,13 +273,13 @@
 }
 
 .error-value {
-	border: 1px solid red !important;
+	border: 1px solid $color-red !important;
 }
 
 .error-lead {
 	width: 109px;
 	height: 20px;
-	color: red;
+	color: $color-red;
 
 	font-family: Outfit;
 	font-size: 12px;
@@ -291,7 +294,7 @@
 .error-lead2 {
 	width: 109px;
 	height: 20px;
-	color: red;
+	color: $color-red;
 
 	font-family: Outfit;
 	font-size: 12px;
@@ -305,7 +308,7 @@
 .error-lead3 {
 	width: 109px;
 	height: 20px;
-	color: red;
+	color: $color-red;
 
 	font-family: Outfit;
 	font-size: 12px;
@@ -318,7 +321,7 @@
 
 .error-text {
 	margin-top: 20px;
-	color: red;
+	color: $color-red;
 	font-family: Outfit;
 	font-size: 16px;
 	font-weight: 400;
@@ -366,7 +369,7 @@
 				height: 100%;
 				position: relative;
 
-				background-color: white;
+				background-color: $color-w;
 
 				border-radius: 20px;
 
@@ -438,7 +441,7 @@
 
 
 									.star {
-										color: #FF6C2D;
+										color: $color-star;
 										margin-left: 1px;
 									}
 
@@ -464,14 +467,14 @@
 
 						.form__link {
 							text-decoration: none;
-							color: #954CED;
+							color: $color-f;
 							cursor: pointer;
 						}
 					}
 
 					.form__btn {
 						margin-top: 20px;
-						background-color: #B9B9B9;
+						background-color: $color-copy;
 
 						width: 303px;
 						height: 57px;

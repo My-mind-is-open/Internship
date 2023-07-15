@@ -14,7 +14,7 @@
 @import 'footer';
 @import 'form';
 @import 'cookies';
-
+@import 'variables';
 
 * {
 	margin: 0px;
@@ -26,13 +26,13 @@
 
 
 .btn {
-	background-color: #954CED;
+	background-color: $color-f;
 	width: 187px;
 	height: 57px;
 	padding: 16px 30px 16px 30px;
 	border-radius: 16px;
 	gap: 14px;
-	color: #FFFFFF;
+	color: $color-w;
 	font-family: 'Outfit';
 	font-size: 20px;
 	font-weight: 600;
@@ -44,14 +44,18 @@
 
 body {
 	overflow-x: hidden;
+	position: relative;
+	z-index: -1;
+	max-width: 1440px;
+	margin: 0 auto;
 }
 
 .wrapper {
 	max-width: 1440px;
 	width: 100%;
 	margin: 0 auto;
-	z-index: -1;
-
+	z-index: -7;
+	position: relative;
 }
 
 .title {
@@ -62,61 +66,10 @@ body {
 	line-height: 102px;
 	letter-spacing: 0px;
 	text-align: left;
-	color: #FFFFFF;
+	color: $color-w;
 
 }
 
-// .box-input {
-// 	display: flex;
-// 	flex-direction: column;
-// 	justify-content: flex-start;
-// 	align-items: flex-start;
-// 	width: 337px;
-// 	height: 66px;
-// 	margin-top: 10px;
-
-
-// 	.input {
-// 		width: 337px;
-// 		height: 40px;
-// 		padding: 10px 16px 10px 16px;
-// 		border-radius: 14px;
-// 		border: 1px solid #F1F1F1;
-// 		margin-top: 4px;
-
-// 		font-family: Outfit;
-// 		font-size: 14px;
-// 		font-weight: 400;
-// 		line-height: 22px;
-// 		letter-spacing: 0px;
-// 		text-align: left;
-
-// 	}
-
-// 	.input:focus {
-// 		outline: none;
-// 	}
-
-// 	.label {
-// 		color: black;
-// 		font-family: Outfit;
-// 		font-size: 14px;
-// 		font-weight: 500;
-// 		line-height: 22px;
-// 		letter-spacing: 0em;
-// 		text-align: left;
-// 		width: 127px;
-
-
-// 		.star {
-// 			color: #FF6C2D;
-// 			margin-left: 1px;
-// 		}
-
-
-// 	}
-
-// }
 
 @media(max-width:376px) {
 	.wrapper {

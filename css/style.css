@@ -7,6 +7,8 @@
 .header {
   width: 100%;
   height: 109px;
+  position: relative;
+  z-index: 1;
 }
 .header .box {
   max-width: 1440px;
@@ -36,7 +38,7 @@
   padding: 9px 40px 9px 40px;
   border-radius: 20px 20px 0px 0px;
   gap: 10px;
-  background-color: #FFAA4C;
+  background-color: black;
   color: black;
   size: 16px;
   font-family: Outfit;
@@ -81,9 +83,10 @@
           align-items: center;
 }
 .header .box .header_level2 .nav {
-  display: none;
   position: fixed;
   z-index: 7;
+  display: none;
+  background: red;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -93,7 +96,7 @@
   width: 100%;
   max-width: 375px;
   height: 846px;
-  background: #000;
+  background: black;
   overflow-x: hidden;
   top: 0px;
 }
@@ -311,7 +314,7 @@
   }
 }
 .about {
-  background: #000;
+  background: black;
   height: 1116px;
   overflow: hidden;
 }
@@ -347,7 +350,7 @@
   line-height: 45px;
   letter-spacing: 0px;
   text-align: left;
-  color: white;
+  color: #FFFFFF;
   width: 397px;
   height: 135px;
   margin-top: 80px;
@@ -371,7 +374,6 @@
   width: 100%;
   height: 771px;
   margin-right: 120px;
-  border: 1xp solid red;
 }
 .about .box .about-right .box-right {
   display: -webkit-box;
@@ -575,7 +577,7 @@
   max-width: 1440px;
   width: 100%;
   height: 836px;
-  background: #000;
+  background: black;
   z-index: 1;
   padding-top: 100px;
 }
@@ -752,8 +754,8 @@
       -ms-flex-align: center;
           align-items: center;
   animation-direction: reverse;
-  -webkit-animation-duration: 16.3s;
-          animation-duration: 16.3s;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
   -webkit-animation-name: move;
           animation-name: move;
   -webkit-animation-iteration-count: infinite;
@@ -1869,7 +1871,7 @@
   max-width: 1440px;
   width: 100%;
   height: 1017px;
-  color: white;
+  color: #FFFFFF;
 }
 .businessGrow .box {
   display: -webkit-box;
@@ -2016,7 +2018,7 @@
     width: 375px;
     height: 1047px;
     overflow-x: hidden;
-    color: white;
+    color: #FFFFFF;
   }
   .businessGrow .box .businessGrow__top {
     width: 375px;
@@ -2162,6 +2164,8 @@
 .footer {
   width: 100%;
   height: 188px;
+  position: relative;
+  z-index: -1000;
   overflow: hidden;
 }
 .footer .box {
@@ -2456,16 +2460,16 @@
 }
 .fullform {
   position: fixed;
-  top: 0;
-  z-index: 7;
+  z-index: 1000;
   width: 100%;
   max-width: 1440px;
   height: 1080px;
   display: none;
+  top: -100px;
 }
 .fullform .fullform__container {
   position: absolute;
-  top: 12%;
+  top: 21%;
   left: 50%;
   -webkit-transform: translate(-50%, -12%);
           transform: translate(-50%, -12%);
@@ -2478,7 +2482,7 @@
   width: 100%;
   height: 100%;
   position: relative;
-  background-color: white;
+  background-color: #FFFFFF;
   padding: 40px;
   border-radius: 20px;
   display: -webkit-box;
@@ -2626,13 +2630,13 @@
 .fullform .successful-Form {
   display: none;
   position: absolute;
-  top: 12%;
+  top: 21%;
   left: 50%;
   -webkit-transform: translate(-50%, -12%);
           transform: translate(-50%, -12%);
   width: 417px;
   height: 561px;
-  background: white;
+  background: #FFFFFF;
   border-radius: 20px;
 }
 .fullform .successful-Form .box {
@@ -2697,7 +2701,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: white;
+  color: #FFFFFF;
   cursor: pointer;
   border: none;
 }
@@ -2823,7 +2827,7 @@
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: white;
+    background-color: #FFFFFF;
     border-radius: 20px;
   }
   .fullform .fullform__container .form .form__wrap {
@@ -2970,8 +2974,8 @@
 }
 .cookies {
   position: absolute;
-  top: 580px;
-  left: 130px;
+  top: 470px;
+  left: 90px;
   width: 1285px;
   height: 117px;
   background-color: #FFFFFF;
@@ -3098,7 +3102,7 @@
 @media (max-width: 376px) {
   .cookies {
     position: absolute;
-    top: 387px;
+    top: 290px;
     left: 20px;
     width: 335px;
     height: 402px;
@@ -3204,13 +3208,18 @@
 
 body {
   overflow-x: hidden;
+  position: relative;
+  z-index: -1;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .wrapper {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-  z-index: -1;
+  z-index: -7;
+  position: relative;
 }
 
 .title {

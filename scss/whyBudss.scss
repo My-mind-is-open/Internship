@@ -1,8 +1,10 @@
+@import 'variables';
+
 .whyBudss {
 	max-width: 1440px;
 	width: 100%;
 	height: 1192px;
-	background: black;
+	background: $color-b;
 
 	.box {
 		display: flex;
@@ -76,7 +78,7 @@
 				max-width: 733px;
 				width: 100%;
 				height: 362px;
-				background: #F5F5F5;
+				background: $color-wgw;
 				border-radius: 30px;
 				position: relative;
 				overflow: hidden;
@@ -104,7 +106,7 @@
 					margin-bottom: 15px;
 
 					.card__title {
-						//styleName: Title/T7_Bold_32;
+
 						font-family: Outfit;
 						font-size: 48px;
 						font-weight: 700;
@@ -137,7 +139,7 @@
 				width: 100%;
 				height: 362px;
 				border-radius: 30px;
-				background: #F5F5F5;
+				background: $color-wgw;
 				margin-left: 18px;
 				position: relative;
 				display: flex;
@@ -172,7 +174,7 @@
 					margin-top: 40px;
 
 					.card__title2 {
-						color: black;
+						color: $color-b;
 
 						font-family: Outfit;
 						font-size: 48px;
@@ -202,7 +204,7 @@
 				width: 100%;
 				height: 362px;
 				border-radius: 30px;
-				background: #F5F5F5;
+				background: $color-wgw;
 				position: relative;
 				overflow: hidden;
 
@@ -211,7 +213,7 @@
 					margin-left: 40px;
 
 					.card__title3 {
-						color: black;
+						color: $color-b;
 						font-family: Outfit;
 						font-size: 48px;
 						font-weight: 600;
@@ -225,7 +227,7 @@
 					}
 
 					.card__lead3 {
-						color: black;
+						color: $color-b;
 						font-family: Outfit;
 						font-size: 20px;
 						font-weight: 400;
@@ -254,7 +256,7 @@
 				width: 100%;
 				height: 362px;
 				border-radius: 30px;
-				background: #F5F5F5;
+				background: $color-wgw;
 				margin-left: 18px;
 				position: relative;
 
@@ -263,7 +265,7 @@
 					margin-left: 40px;
 
 					.card__title4 {
-						color: black;
+						color: $color-b;
 						font-family: Outfit;
 						font-size: 48px;
 						font-weight: 600;
@@ -279,7 +281,7 @@
 					.card__lead4 {
 						width: 402px;
 						height: 96px;
-						color: black;
+						color: $color-b;
 						font-family: Outfit;
 						font-size: 20px;
 						font-weight: 400;

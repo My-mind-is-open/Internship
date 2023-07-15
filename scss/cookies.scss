@@ -1,10 +1,12 @@
+@import 'variables';
+
 .cookies {
 	position: absolute;
-	top: 580px;
-	left: 130px;
+	top: 470px;
+	left: 90px;
 	width: 1285px;
 	height: 117px;
-	background-color: #FFFFFF;
+	background-color: $color-w;
 
 	border-radius: 16px;
 	animation-duration: 3s;
@@ -60,7 +62,7 @@
 				height: 57px;
 				padding: 16px 30px 16px 30px;
 				border-radius: 16px;
-				background: #954CED;
+				background: $color-f;
 				border: none;
 				cursor: pointer;
 
@@ -79,7 +81,7 @@
 				height: 57px;
 				padding: 16px 30px 16px 30px;
 				border-radius: 16px;
-				border: 2px solid #954CED;
+				border: 2px solid $color-f;
 				cursor: pointer;
 				font-family: Outfit;
 				font-size: 20px;
@@ -88,7 +90,7 @@
 				letter-spacing: 0px;
 				text-align: left;
 
-				color: black;
+				color: $color-b;
 
 
 			}
@@ -119,7 +121,7 @@
 @media(max-width:376px) {
 	.cookies {
 		position: absolute;
-		top: 387px;
+		top: 290px;
 		left: 20px;
 		width: 335px;
 		height: 402px;
